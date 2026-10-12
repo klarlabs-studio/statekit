@@ -13,7 +13,14 @@
   },
   "dependencies": {
     "@astrojs/vue": "^7.0.1",
-    "astro": "^7.1.0",
+    "@vue/server-renderer": "^3.5.42",
+    "astro": "^7.2.8",
+    "fflate": "^0.8.3",
+    "js-yaml": "^4.3.2",
+    "sharp": "^0.35.5",
+    "smol-toml": "^1.9.0",
+    "source-map-js": "^1.2.2",
+    "undici": "^7.29.1",
     "vue": "^3.5.0"
   },
   "devDependencies": {
