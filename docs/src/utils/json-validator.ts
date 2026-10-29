@@ -143,9 +143,9 @@ function findInitialCycle(
     seen.set(current, path.length);
     path.push(current);
 
-    const cfg = states[current];
+    const cfg: unknown = states[current];
     if (!cfg || typeof cfg !== 'object') break;
-    const next = (cfg as Record<string, unknown>).initial;
+    const next: unknown = (cfg as Record<string, unknown>).initial;
     if (typeof next !== 'string' || next === '') break;
     current = next;
   }
