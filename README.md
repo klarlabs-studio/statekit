@@ -3,7 +3,7 @@
 [![Go Reference](https://pkg.go.dev/badge/go.klarlabs.de/statekit.svg)](https://pkg.go.dev/go.klarlabs.de/statekit)
 [![Go Report Card](https://goreportcard.com/badge/go.klarlabs.de/statekit)](https://goreportcard.com/report/go.klarlabs.de/statekit)
 [![CI](https://github.com/klarlabs-studio/statekit/actions/workflows/ci.yml/badge.svg)](https://github.com/klarlabs-studio/statekit/actions/workflows/ci.yml)
-[![Security: A](https://raw.githubusercontent.com/klarlabs-studio/statekit/main/.nox/security-badge.svg)](https://github.com/klarlabs-studio/statekit/security)
+[![nox security grade](.github/nox-badge.svg)](.github/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Stop modeling order, payment, and incident lifecycles with `switch` and ad-hoc FSMs.** Statekit is a typed statechart library for Go — hierarchical states, guards, actions, delayed and parallel transitions — with built-in visualization and lint. One library, one mental model, still v1.x stable on the core API.

@@ -1,9 +1,5 @@
 scan:
   exclude:
-    # Baseline file: contains high-entropy fingerprint hashes (SHA-256 hex)
-    # that match the SEC-680 "Prometheus API key" regex; these ARE the
-    # finding fingerprints, not actual secrets.
-    - ".nox/baseline.json"
     # go.sum: module digests look like API keys to entropy-based detectors.
     - "go.sum"
     - "**/go.sum"
